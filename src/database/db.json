@@ -84,7 +84,29 @@
       ],
       "id": "bbcc6dc3-0551-4f77-aaca-ab3ffbb9a71c",
       "createdAt": "5/1/2023, 1:00:31 AM",
-      "updatedAt": "5/1/2023, 1:00:31 AM"
+      "updatedAt": "5/1/2023, 4:08:29 AM"
+    },
+    {
+      "name": "New Entry",
+      "mode": "Pull Ups",
+      "equipment": [
+        "dumbell",
+        "barbell",
+        "abmat"
+      ],
+      "exercises": [
+        "10 pushUps",
+        "10 mountain climbers",
+        "30 abmat sit-ups"
+      ],
+      "trainerTips": [
+        "Split your toes to bars into two sets maximum",
+        "Go unbroken on the thrusters",
+        "Take the abmat sit-ups as a chance to normalize your breath"
+      ],
+      "id": "e303c2b2-434c-422e-8f69-07f6d1cc74cd",
+      "createdAt": "5/1/2023, 4:36:39 AM",
+      "updatedAt": "5/1/2023, 4:36:39 AM"
     }
   ]
 }

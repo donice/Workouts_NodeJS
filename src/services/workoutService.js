@@ -1,3 +1,5 @@
+// receiving from the DB dir
+// pretty much receiving teh state of teh database and sending it
 const { v4: uuid } = require("uuid");
 const Workout = require("../database/Workout");
 
@@ -18,6 +20,9 @@ const createNewWorkout = (newWorkout) => {
     createdAt: new Date().toLocaleString("en-US", { timeZone: "UTC" }),
     updatedAt: new Date().toLocaleString("en-US", { timeZone: "UTC" }),
   };
+  console.log(workoutToInsert)
+
+   // wait for the createNewWorkout function from DB
   const createdWorkout = Workout.createNewWorkout(workoutToInsert);
   return createdWorkout;
 };
